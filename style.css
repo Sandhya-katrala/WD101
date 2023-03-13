@@ -1,0 +1,12 @@
+body{
+    font-style: italic;
+    margin-top: 10px;
+}
+.container{
+    padding: 10px;
+    margin-left: 300px;
+    width: 550px;
+    height: 320px;
+    background-color: aqua;
+;
+}
