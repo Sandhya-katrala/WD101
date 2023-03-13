@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>REGISTRATION FORM</title>
+  </head>
+<div class="container">
+    <u><h1>REGISTRATION FORM</h1></u>
+<body align="center">
+  <form id="userform">
+   <label for="name">Name</label>
+   <input required type="text" id="name" name="name">
+<br><br>
+   <label for="email">Email</label>
+   <input required type="email" id="email" name="email">
+<br><br>
+   <label for="password">Password</label>
+   <input required type="password" id="password" name="password">
+<br><br>
+   <label for="dob">Date of Birth</label>
+   <input required type="date" id="dob" name="dob" value=Date()>
+   
+<br><br>
+   <input  type="checkbox" id="Terms" name="acceptTerms">
+   <label for="acceptTerms">Accept Terms & Conditions</label>
+<br><br>
+   <button type="submit">SUBMIT</button>
+</form>
+       
+  
+  <div
+  class="relative bg-white px-6 mt-5 pt-10 pb-8 shadow-xl ring-1 ring-gray-900/5 sm:mx-auto sm:rounded-lg sm:px-10">
+<div class="mx-auto">
+    <br><br>
+    <h2 class="text-3xl text-center font-bold leading-tight">Entries</h2>
+    <div class="divide-y divide-gray-300/50" id="user-entries"></div>
+</div>
+<script src="index.js"></script>
+</div>
+</body>
+
+</html>
